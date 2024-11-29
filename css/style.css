@@ -1,0 +1,52 @@
+body{
+    background-color: #0D0714;
+    font-family: "Akaya Kanadaka", system-ui;
+}
+.btn{
+    background-color: #9E78CF;
+    color: #fff;
+    &:hover{
+        background-color: #15101C;
+    color: #fff;
+
+        
+    }
+}
+nav{
+    background-color: #211232;
+    
+    a.navbar-brand span{
+        font-size: 30px;
+        color: #9E78CF;
+    }
+   
+}
+.navbar-toggler-icon{
+    background-image: none
+}
+
+nav img{
+    width: 50px;
+}
+#userInputTask{
+    background-color: transparent;
+    border-color:#3E1671 ;
+    color: white;
+    &::placeholder{
+        color: #9E78CF;
+    }
+    
+}
+.btn.clear-all{
+    background-color: rgb(177, 56, 56);
+}
+.task{
+    background-color: #15101C;
+    color: #9E78CF;
+    .check:hover{
+        background-color: rgb(40, 138, 77); 
+    }
+    .delete:hover{
+        background-color: rgb(177, 56, 56); 
+    }
+}
